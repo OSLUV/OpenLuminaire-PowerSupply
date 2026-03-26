@@ -40073,7 +40073,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "1ea0d353-3b16-4011-94b1-59cdc2d4ccd2")
+			(uuid "1b71e951-ef4f-41d7-8713-d3ac10754f79")
 		)
 		(fp_line
 			(start -2.25 3)
@@ -40083,7 +40083,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "2d942929-61b9-4bf2-9a85-8f7cc8cde271")
+			(uuid "acc9c5f7-044a-4f0c-9f39-c56706a08cc6")
 		)
 		(fp_line
 			(start 7.25 -3)
@@ -40093,7 +40093,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7c00af6c-1b9c-4d9a-9327-e78ecdcfd297")
+			(uuid "82ff6c51-be45-45f4-95c7-bebb44e8565b")
 		)
 		(fp_line
 			(start 7.25 3)
@@ -40103,7 +40103,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "1946723c-e4a6-4e76-8c96-3237eb7736df")
+			(uuid "7787136b-1d79-4330-8bbf-3852ab164b1f")
 		)
 		(fp_line
 			(start -2.75 -3.5)
@@ -40113,7 +40113,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "d97a5368-d74e-4f2f-8113-475617b41b24")
+			(uuid "bdacf377-ae6f-4458-a9de-0ddacf056dee")
 		)
 		(fp_line
 			(start -2.75 3.5)
@@ -40123,7 +40123,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "3969283b-fa41-476b-995d-03ed21b1536b")
+			(uuid "3a6d5319-84fb-4a3e-96b1-1fc6a5bdc812")
 		)
 		(fp_line
 			(start 7.75 -3.5)
@@ -40133,7 +40133,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "96e8d5bc-6b95-40f1-9867-0f89b817a57b")
+			(uuid "71f7e100-d53e-4821-86ee-d27524be88ae")
 		)
 		(fp_line
 			(start 7.75 3.5)
@@ -40143,7 +40143,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "a375fe0c-66b6-44da-8a51-3e9001b5d616")
+			(uuid "01ed5bfc-ea49-4c7f-a2c4-3fbc1b6faf5f")
 		)
 		(fp_line
 			(start -2.25 -3)
@@ -40153,7 +40153,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "bb109b4a-a6c2-49f7-bcab-6fe6b536bad0")
+			(uuid "cf0d8041-6b9b-4c8b-8286-7e6141dadba8")
 		)
 		(fp_line
 			(start -2.25 3)
@@ -40163,7 +40163,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "9e2bace4-e306-4843-bda6-ca7ba0878d4e")
+			(uuid "16fda245-135a-4bc1-82dd-2444dc69b1da")
 		)
 		(fp_line
 			(start 7.25 -3)
@@ -40173,7 +40173,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "fb79aac3-7669-476c-9f8c-5329093ea245")
+			(uuid "eb7c4cb8-5f46-425b-ab68-b9a95704cc20")
 		)
 		(fp_line
 			(start 7.25 3)
@@ -40183,7 +40183,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "6a1c5e91-e136-454f-8f3b-1bafa9c45db8")
+			(uuid "ca9d351d-e561-491b-868d-92f0801ea3b3")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 2.5 0 0)
@@ -40220,7 +40220,7 @@
 			(uuid "155d6eba-096a-416b-95a8-facbe7759e14")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Leon Fauth/Downloads/LIB_B57235S0509M000/B57235S0509M000/3D/B57235S0509M000.stp"
+		(model "${KICAD9_3DMODEL_DIR}/B57235S0509M000.stp"
 			(offset
 				(xyz 2.499999962 0 7.659999732)
 			)
@@ -44864,7 +44864,7 @@
 		)
 		(polygon
 			(pts
-				(xy 54 63) (xy 50 63) (xy 50 50) (xy 157 50) (xy 157 57) (xy 155 57) (xy 155 57) (xy 153 55) (xy 62 55)
+				(xy 54 63) (xy 50 63) (xy 50 50) (xy 157 50) (xy 157 57) (xy 155 57) (xy 153 55) (xy 62 55)
 			)
 		)
 		(filled_polygon
@@ -45111,7 +45111,7 @@
 		)
 		(polygon
 			(pts
-				(xy 50 63) (xy 54 63) (xy 62 55) (xy 153 55) (xy 155 57) (xy 155 57) (xy 157 57) (xy 157 50) (xy 50 50)
+				(xy 50 63) (xy 54 63) (xy 62 55) (xy 153 55) (xy 155 57) (xy 157 57) (xy 157 50) (xy 50 50)
 			)
 		)
 		(filled_polygon

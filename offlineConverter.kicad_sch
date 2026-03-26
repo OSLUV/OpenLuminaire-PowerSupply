@@ -7823,22 +7823,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 5a9d3f0b-882c-438d-bcc9-aebf4ba5c51e)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 21.59 29.21) (xy 21.59 73.66) (xy 52.07 73.66) (xy 52.07 33.655) (xy 52.07 29.21)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid c707a8cf-1b64-47b7-8591-dd355c37f4a6)
+			(uuid 6ba9f530-50ba-4a62-8eac-49e51ac0e731)
 		)
 	)
 	(rule_area
@@ -7854,7 +7839,22 @@
 			(fill
 				(type none)
 			)
-			(uuid eae230bb-9bd0-47d1-88ed-98b8c80504f7)
+			(uuid a159a021-bcae-4413-ab4f-21acaa935792)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 21.59 29.21) (xy 21.59 73.66) (xy 52.07 73.66) (xy 52.07 33.655) (xy 52.07 29.21)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid c8cb045e-af9b-4938-97d1-038767cc1d32)
 		)
 	)
 	(netclass_flag ""
@@ -18077,7 +18077,7 @@
 				)
 			)
 		)
-		(property "Value" "BX320_R1"
+		(property "Value" "DNP"
 			(at 227.33 104.14 0)
 			(effects
 				(font

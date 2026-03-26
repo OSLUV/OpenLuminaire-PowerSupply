@@ -687,7 +687,7 @@
       "plot": "Fertigungsdaten/",
       "pos_files": "Fertigungsdaten/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "OSLUV_OfflineConverter.step",
       "svg": "",
       "vrml": ""
     },
