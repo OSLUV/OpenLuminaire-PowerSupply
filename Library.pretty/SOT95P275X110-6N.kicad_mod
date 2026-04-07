@@ -1,0 +1,593 @@
+(footprint "SOT95P275X110-6N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "NCP12510ASN65T1G")
+	(tags "Integrated Circuit")
+	(property "Reference" "REF**"
+		(at 1.5 -2.49 90)
+		(layer "F.SilkS")
+		(uuid "ad1e65f7-7a13-417e-9f04-31406185d852")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "NCP12510ASN65T1G"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c1b97c0b-b4ec-4313-bd86-bdde65190e3e")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCP12510-D.PDF"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "40c287fa-f4bb-4a6a-b691-066e55bba566")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Non-dissipative internal and adjustable Over Power Protection (OPP) circuits; Frequency Foldback down to 26 kHz and Skip-Cycle in light load conditions; Frequency jittering from full load to skip-cycle; Rich Set of Integrated Protections: Pre-short, OPP, OVP, OCP, SCP, OTP with AutoRecovery or Latched Options.; Improved IC Power Consumption; Internal Ramp Compensation; High Robustness and High ESD Capabilities"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "931fc95d-1768-4864-ba1c-ae88a50dd50d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "1.1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e4a72bc4-33c2-4e13-b945-93fbeab9fe23")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "onsemi"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ae44efaf-7c83-4684-958d-dd0b7c854cb2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "NCP12510ASN65T1G"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4e299d55-8c26-4e00-ba82-ff1ad7c6943e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "863-NCP12510ASN65T1G"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef1036f6-23b6-48a2-8c25-adf0289d4eeb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/NCP12510ASN65T1G?qs=OycAS1CGnlhu23OVgmWa3A%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f71325e7-7556-4c14-a149-87fd5abdb1b9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" "NCP12510ASN65T1G"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "92bef6e5-93bc-4ed7-8a50-d5d5c3426914")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ncp12510asn65t1g/on-semiconductor?region=nac"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6648c827-f8a4-45ac-baa7-b3542b10dbea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "C" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c02ef1d-c9e9-40ee-b707-02d0b86a58ba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Ceramic Type" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f5be27fd-03b7-4f93-ab11-cfcf15ea29d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DF (%)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b44fe5c-c45a-4a13-acd2-8d013d06cbd4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "98d709c1-5d7c-4e04-af8e-c8d64daace63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Fl (mm)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "52347251-39d5-4b7d-beeb-07d4e9814c94")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "IRP,40K (A)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b2b7929-354b-486c-9dfd-753d52f56e09")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ISAT (A)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e1b2b853-d518-48e6-92ba-43167955db21")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ISAT,30% (A)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4482ffab-9ebf-45cf-9315-ac1cab266107")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Operating Temperature" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b6e9aa18-05ca-46ed-8c12-b5480f23c661")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Q (%)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ac7a9057-0b06-45da-9daa-ca645369c2ae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "RDC typ. (mΩ)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fd100296-3054-4e2f-835e-36b24f526c2b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "RISO" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bb58cb10-6c76-4893-9f34-b5df27ad49ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Safety Class" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e7b1b9f-802b-4883-8c71-2670f5d174db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Library" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8079b6bc-528a-4205-bb06-d08184bdd2b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Name" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0fc6087e-2ce6-4c10-b47c-997766aed36f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Tol. C" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bd448733-66d5-4db3-b273-dd746c56dc84")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "VIMP (V (DC))" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "676fa6bf-3754-4f4b-a747-f2ad204c84fe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "VOP (V)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "31c4e49a-27bf-4e2e-befb-7c745108f6ed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "fres (MHz)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c6409261-3814-4368-afd9-b423bc7bc3c6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.875 -1.6)
+		(end -0.625 -1.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c2b62cf1-fcfa-4bbd-b349-69194a57ea66")
+	)
+	(fp_line
+		(start -0.275 -1.5)
+		(end 0.275 -1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cdefdc91-7790-4f0b-8e7f-0410149fbe17")
+	)
+	(fp_line
+		(start -0.275 1.5)
+		(end -0.275 -1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cc0e6264-9fc8-4217-b81c-1adfb61b1ed0")
+	)
+	(fp_line
+		(start 0.275 -1.5)
+		(end 0.275 1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f7c48d69-b5d3-4ae2-9263-4ca305cf1256")
+	)
+	(fp_line
+		(start 0.275 1.5)
+		(end -0.275 1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b821212d-44c9-425f-81c9-51919d3f387e")
+	)
+	(fp_line
+		(start -2.125 -1.8)
+		(end 2.125 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "04461ea0-75eb-4ae1-8d06-a321c016b4f7")
+	)
+	(fp_line
+		(start -2.125 1.8)
+		(end -2.125 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a3c84eb8-8be4-4efd-a7aa-d310420fb440")
+	)
+	(fp_line
+		(start 2.125 -1.8)
+		(end 2.125 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1fed4a53-e5cc-4b8f-a389-b5598a0cc3b8")
+	)
+	(fp_line
+		(start 2.125 1.8)
+		(end -2.125 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "13e5e113-9c63-41c7-a520-4f94fdd678a8")
+	)
+	(fp_line
+		(start -0.75 -1.5)
+		(end 0.75 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9311a94f-2a90-4963-aff0-6934ebdebec5")
+	)
+	(fp_line
+		(start -0.75 -0.55)
+		(end 0.2 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "46dc21c4-06c9-4c45-9ee8-968b40fe99e3")
+	)
+	(fp_line
+		(start -0.75 1.5)
+		(end -0.75 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "17ba2d97-4101-4a18-8d22-89d1cddff2ee")
+	)
+	(fp_line
+		(start 0.75 -1.5)
+		(end 0.75 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "70e9c1e6-66b1-4653-8a3b-85dcdd7e6ece")
+	)
+	(fp_line
+		(start 0.75 1.5)
+		(end -0.75 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2b8c574b-f208-4ca3-84a7-8cb4864a860f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "a5a3747d-6765-4511-9706-c39330ea89a9")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.25 -0.95 90)
+		(size 0.6 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a154e084-afdb-4a8c-a2ca-f7eb108b059b")
+	)
+	(pad "2" smd rect
+		(at -1.25 0 90)
+		(size 0.6 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "00acd7f1-69fa-44f1-9311-d12b91dcd4fb")
+	)
+	(pad "3" smd rect
+		(at -1.25 0.95 90)
+		(size 0.6 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "79fab9d4-f3a6-43f7-a08b-c7b7bb35e679")
+	)
+	(pad "4" smd rect
+		(at 1.25 0.95 90)
+		(size 0.6 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "63a7ada8-400e-47f9-9b9f-d4cd284ff46a")
+	)
+	(pad "5" smd rect
+		(at 1.25 0 90)
+		(size 0.6 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "89dda748-28b7-458c-a562-f0b217b2195b")
+	)
+	(pad "6" smd rect
+		(at 1.25 -0.95 90)
+		(size 0.6 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "05bd6b39-f1f3-45a6-8398-68939c70e14f")
+	)
+	(embedded_fonts no)
+	(model "NCP12510ASN65T1G.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

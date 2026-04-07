@@ -1,0 +1,555 @@
+(footprint "SOP510P1005X293-4N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "MC0402")
+	(tags "Bridge Rectifier")
+	(property "Reference" "REF**"
+		(at 0 5.25 0)
+		(layer "F.SilkS")
+		(uuid "2f463c30-96e8-4b1c-9010-f043eb74dd18")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DBLS209G_RD"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5812d4ed-21f4-4491-9719-a94c36e45550")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "http://static6.arrow.com/aropdfconversion/89a8da553ac24b8d9dd516b0f36b565751d47ad/35653849009201728dbls201g20series_h13.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be3a5e91-9f13-4936-bc4f-d716aaa3ecbe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Taiwan Semiconductor DBLS209G RD, Bridge Rectifier, 2A 1400V, 4-Pin DBLS"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b46cea2f-5f31-4337-bacf-347a3bd0d330")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "2.93"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0da39f22-2314-4065-863a-e88dc1ca54d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "821-DBLS209GRD"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c82c1ec3-80ea-4f42-bece-b899d4ef91d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Taiwan-Semiconductor/DBLS209G-RD/?qs=dv9KMQQLqv2TB7C%252BnZjWGQ%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c2a38616-07a8-48ba-a4db-1c70d58db51f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Taiwan Semiconductor"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a1a51808-cce2-4757-a307-2f3700772e6b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "DBLS209G RD"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b1981f9-1fd7-439a-9920-2b3e83691c2e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "C" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "849423c8-3eee-4e47-946d-0d7d7dbf1ed7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Ceramic Type" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fcee3860-9cea-4f96-a514-f466a0840471")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DF (%)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "df52d293-0841-4a09-beee-27701fd3ac95")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b913c4a7-cd48-45ed-96ef-ef20e8c29ee8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Fl (mm)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e8e397f7-ae4a-4c64-8d02-61a230317945")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "IRP,40K (A)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c5e35dde-9a8a-497d-a54d-f221f643a62d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ISAT (A)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf06b044-2e48-4f02-a63c-992c01b356d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ISAT,30% (A)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d31db47f-905d-475a-9cc3-70e0201e3899")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Operating Temperature" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "60ba177c-e7cc-438c-a756-538b174f1682")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Q (%)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "395c1707-7ef8-4c7c-957d-dd3ada657cac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "RDC typ. (mΩ)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "254aebcb-af2b-47f8-9115-9e000af8140e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "RISO" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ccb3f768-1e2b-4ddf-89ce-776e16483cfa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Safety Class" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc76f976-50d2-4ca6-ba5e-b10df7d8f151")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Library" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c45ccfa6-52c8-43cc-85d9-4815ce9308f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Name" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c0f36466-93c5-4c6e-b5b5-76c455f36fd3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Tol. C" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "37759cf3-5f7d-4848-969f-1c1f6ce8f147")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "VIMP (V (DC))" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e178b6a5-7138-407b-9c18-02ac52033e9d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "VOP (V)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3cc6ac2a-86de-460e-9d84-b145adc90171")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "fres (MHz)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "36f7d64b-49c8-45e9-9a84-8f980791cb7c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5.525 -3.575)
+		(end -3.175 -3.575)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "070d7461-ba11-4913-a991-a7e79abb872b")
+	)
+	(fp_line
+		(start -2.825 -4.16)
+		(end 2.825 -4.16)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cafc27a4-a96e-46db-af6e-4816c98908c4")
+	)
+	(fp_line
+		(start -2.825 4.16)
+		(end -2.825 -4.16)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "34fe34ca-d27c-49f7-88d0-56612759abea")
+	)
+	(fp_line
+		(start 2.825 -4.16)
+		(end 2.825 4.16)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8968ac56-273b-4aec-8b19-e622a597e57a")
+	)
+	(fp_line
+		(start 2.825 4.16)
+		(end -2.825 4.16)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bf18115c-2dda-453b-b9ef-b72e60325cdb")
+	)
+	(fp_line
+		(start -5.775 -4.505)
+		(end 5.775 -4.505)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3accf38a-ff35-4c2b-a52a-b42c53669eb7")
+	)
+	(fp_line
+		(start -5.775 4.505)
+		(end -5.775 -4.505)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6c672cff-5d51-4770-b73a-89827ee9eb41")
+	)
+	(fp_line
+		(start 5.775 -4.505)
+		(end 5.775 4.505)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "583bf259-e89c-4c69-8a69-af9d34be0c54")
+	)
+	(fp_line
+		(start 5.775 4.505)
+		(end -5.775 4.505)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9215d7da-ee1b-4c08-92f0-4d35103de7d4")
+	)
+	(fp_line
+		(start -3.175 -4.16)
+		(end 3.175 -4.16)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "81cfb553-0e31-4f2d-bbee-686ceec4650f")
+	)
+	(fp_line
+		(start -3.175 0.94)
+		(end 1.925 -4.16)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0c131230-6378-4926-b071-dfc2b19d6931")
+	)
+	(fp_line
+		(start -3.175 4.16)
+		(end -3.175 -4.16)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "22d059f3-44fa-4eaf-9c70-0604d1498b0d")
+	)
+	(fp_line
+		(start 3.175 -4.16)
+		(end 3.175 4.16)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2d1a1190-8863-4f18-8c51-c11dc1ee1bb0")
+	)
+	(fp_line
+		(start 3.175 4.16)
+		(end -3.175 4.16)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "510d1cc8-3618-4524-b9ae-7e82f061ca99")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "2c6357aa-54e4-4039-ab9d-3294e781fc58")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -4.35 -2.55 90)
+		(size 1.35 2.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e7cabf4e-e97d-4976-83a0-c3116da9432d")
+	)
+	(pad "2" smd rect
+		(at -4.35 2.55 90)
+		(size 1.35 2.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "baf61547-eb43-48f3-b36a-04a2774547e2")
+	)
+	(pad "3" smd rect
+		(at 4.35 2.55 90)
+		(size 1.35 2.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c36604a1-532a-4593-87f8-869213275196")
+	)
+	(pad "4" smd rect
+		(at 4.35 -2.55 90)
+		(size 1.35 2.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "49f33419-1737-4ee1-95d2-afeb7d0f697b")
+	)
+	(embedded_fonts no)
+	(model "DBLS209G_RD.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

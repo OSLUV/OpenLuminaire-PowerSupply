@@ -1,0 +1,461 @@
+(footprint "C_Rect_L19.0mm_W7.0mm_P15.00mm_MKS4"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "C, Rect series, Radial, pin pitch=15.00mm, length*width=19*7mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf")
+	(tags "C Rect series Radial pin pitch 15.00mm length 19mm width 7mm Capacitor")
+	(property "Reference" "REF**"
+		(at -1 4.5 0)
+		(layer "F.SilkS")
+		(uuid "998fcaf2-037d-40f2-90fe-736d3db04a6b")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "100nF 400V MKP4"
+		(at 7.75 1 0)
+		(layer "F.Fab")
+		(uuid "a2dbc21b-0ce9-4588-a0e8-5555fcb6b8c4")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "819e7ce3-4386-42c4-8391-b0126f07d880")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Unpolarized capacitor"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "310c6e28-9c57-446e-af47-d03bc18a21cf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "C" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2076fe19-1f03-4624-bcf9-0346e9e343e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Ceramic Type" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "033ddd75-956e-4e5a-8466-90b739776487")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DF (%)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d8376c6-c4ec-4d26-9649-8986f905e62f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "57f2c74e-ef49-43cf-ba1a-7d04165e8d00")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Fl (mm)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "735e12a8-ec21-4443-acb0-06ccbecc813a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "IRP,40K (A)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3b5c4836-cc6b-41c4-aab0-5076f79320d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ISAT (A)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "115aec01-d769-4243-aba0-8d7bfdb9f3f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ISAT,30% (A)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8620a6a1-0bac-41b2-96e3-3ae3e564b58d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Operating Temperature" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d402918-bff9-4c6a-b4f8-209cc2b70ef9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Q (%)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a2940926-864c-4a76-b844-e2d67d29c358")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "RDC typ. (mΩ)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2f7d2526-e0aa-4bf7-a510-e8b966b0700a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "RISO" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "84770c89-cee0-42d5-b86e-584c7dd3821a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Safety Class" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "68717ae1-88d1-4232-808b-5e9e3025f18b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Library" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f53abdbb-4c97-402c-b70e-4e5105744134")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Name" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b8713aa3-267e-4be1-a8b6-3360a3f6d8f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Tol. C" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d3cf5fd5-884f-4b97-ae98-a3bd01ae82ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "VIMP (V (DC))" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af338f3d-b567-451c-bd98-6553f2dcec82")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "VOP (V)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "46a43a4b-eba1-4971-b347-553bba074bf2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "fres (MHz)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a6c78714-0423-4e1f-90cb-c800dbed5b6e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.12 -3.62)
+		(end -2.12 3.62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9bacedf5-5ade-4702-b466-8d19634f8cb7")
+	)
+	(fp_line
+		(start -2.12 -3.62)
+		(end 17.12 -3.62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5da315f7-961a-4c65-979d-c53879b01b88")
+	)
+	(fp_line
+		(start -2.12 3.62)
+		(end 17.12 3.62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "01857b60-511c-48ed-b173-072d38732f52")
+	)
+	(fp_line
+		(start 17.12 -3.62)
+		(end 17.12 3.62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "47698297-aeae-4a0c-bd72-b9a20699cdfb")
+	)
+	(fp_line
+		(start -2.25 -3.75)
+		(end -2.25 3.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "54deca0b-48e6-4690-8c15-e0660d87b6e9")
+	)
+	(fp_line
+		(start -2.25 3.75)
+		(end 17.25 3.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a8f6ab89-0800-4600-9ae4-c39c126430ae")
+	)
+	(fp_line
+		(start 17.25 -3.75)
+		(end -2.25 -3.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "218e8bb2-bf7f-42b6-869b-b24a27b75f9e")
+	)
+	(fp_line
+		(start 17.25 3.75)
+		(end 17.25 -3.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "30823868-7f59-43b6-bf77-ca58a0ec5b5b")
+	)
+	(fp_line
+		(start -2 -3.5)
+		(end -2 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "13e55611-fc46-4df5-89ae-8750c9870161")
+	)
+	(fp_line
+		(start -2 3.5)
+		(end 17 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e612c5cc-f8dc-4612-8e09-1e62aceb7dbc")
+	)
+	(fp_line
+		(start 17 -3.5)
+		(end -2 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "43eb1b89-7a64-4070-9ed9-f3afd9fd9291")
+	)
+	(fp_line
+		(start 17 3.5)
+		(end 17 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4df6088b-508c-4c13-8936-fbd711c55edc")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 7.5 0 0)
+		(layer "F.Fab")
+		(uuid "85e630b1-0435-4a16-9b07-ed9dac4fafb2")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "143b7a62-fa87-4662-b390-1fcb6f4f85fb")
+	)
+	(pad "2" thru_hole circle
+		(at 15 0)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7bce8195-0623-41c8-9cb7-40db47de460c")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Rect_L19.0mm_W7.0mm_P15.00mm_MKS4.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,461 @@
+(footprint "C_Rect_L13.0mm_W8.0mm_P10.00mm_FKS3_FKP3_MKS4"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "C, Rect series, Radial, pin pitch=10.00mm, length*width=13*8mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_3.pdf, http://www.wima.com/EN/WIMA_MKS_4.pdf")
+	(tags "C Rect series Radial pin pitch 10.00mm length 13mm width 8mm Capacitor")
+	(property "Reference" "REF**"
+		(at 5 -5 0)
+		(layer "F.SilkS")
+		(uuid "12c730b5-4e0f-4f22-aff3-1394676553e2")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "220nF 310VAC X2"
+		(at 5.225 1 0)
+		(layer "F.Fab")
+		(uuid "09bd0919-01ef-42b2-bddd-070a8fe53e86")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d01a26b5-039a-42cd-adcc-c2612392e39c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Unpolarized capacitor"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b29a8d6-6681-4e2d-ad62-99f75763a420")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "C" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8d71167b-49bd-4883-afcc-88a1c803e349")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Ceramic Type" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "185d8da6-0331-4e42-9246-2c74e2c10419")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DF (%)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "71a3106b-c253-457f-8525-e6d135bab3f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3f9949c6-b17c-4236-8cd3-34bfa85ba854")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Fl (mm)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a8a529f-0a96-4e10-8b6b-2438d05fff02")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "IRP,40K (A)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e44476e9-b970-443e-9fe3-dc87236360d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ISAT (A)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c05aa4fa-60ce-4c76-8130-dea5ee5d7449")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ISAT,30% (A)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "189555f1-7951-451e-a8bf-822beba9802b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Operating Temperature" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "91bb4a42-1131-4be9-8dba-b0f71cb58163")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Q (%)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a027f625-831f-4984-af51-047345040857")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "RDC typ. (mΩ)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa363b24-b2a2-4dd4-bdda-023065c4355b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "RISO" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8857c18e-9b84-4f7a-8163-72b06d14e4bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Safety Class" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "226647c1-dfc6-42b9-8640-ad3ec99e67ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Library" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cf49fc4e-42bf-47cc-b4a9-593aee24feef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Name" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e73b3be9-9262-44b3-9e1e-0c1573737d97")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Tol. C" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "370c9fba-e850-4432-8084-cfc536b21d41")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "VIMP (V (DC))" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "efa1898b-433b-447c-b560-35b2b16ff9f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "VOP (V)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b464872-baa8-46d4-bb0b-c69f1ef3451f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "fres (MHz)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "42039c31-2c12-464c-9d5b-87e5e1f1edac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.62 -4.12)
+		(end -1.62 4.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "361adc6b-ae5b-4f52-affb-2b83db2916db")
+	)
+	(fp_line
+		(start -1.62 -4.12)
+		(end 11.62 -4.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4c41b39e-4045-4ab8-b373-071a0d166e2e")
+	)
+	(fp_line
+		(start -1.62 4.12)
+		(end 11.62 4.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2483b335-8254-4bda-9137-4199ed1f6339")
+	)
+	(fp_line
+		(start 11.62 -4.12)
+		(end 11.62 4.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9a560fb3-5337-4267-a843-3ee7eac8143f")
+	)
+	(fp_line
+		(start -1.75 -4.25)
+		(end -1.75 4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7aa2e6d7-3e68-47f6-bdf9-8123f9270006")
+	)
+	(fp_line
+		(start -1.75 4.25)
+		(end 11.75 4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f1047f9b-4901-4e24-8500-c12b55ba5178")
+	)
+	(fp_line
+		(start 11.75 -4.25)
+		(end -1.75 -4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ac5a8b47-57a7-48df-a9a8-f0bc30e79f77")
+	)
+	(fp_line
+		(start 11.75 4.25)
+		(end 11.75 -4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4b6e7af5-59d3-4fc2-bcb3-37c0fc0a2a4b")
+	)
+	(fp_line
+		(start -1.5 -4)
+		(end -1.5 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f81112db-84ab-4073-8d80-46caf6057e3a")
+	)
+	(fp_line
+		(start -1.5 4)
+		(end 11.5 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "71ee6aff-e6e4-4b9f-8996-e7effdf5295a")
+	)
+	(fp_line
+		(start 11.5 -4)
+		(end -1.5 -4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a980b045-2077-4ded-9961-6bdd4dfd432f")
+	)
+	(fp_line
+		(start 11.5 4)
+		(end 11.5 -4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6efb064a-7345-4d23-8775-73bfa147df6c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5 0 0)
+		(layer "F.Fab")
+		(uuid "ce5fcb82-736b-4225-8308-cf00c8aeffb4")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "421ce5ba-6f50-4cc2-b702-a04d74a4cadc")
+	)
+	(pad "2" thru_hole circle
+		(at 10 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e03c3e3d-70c3-4703-8dfe-eb0166b218e2")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Rect_L13.0mm_W8.0mm_P10.00mm_FKS3_FKP3_MKS4.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

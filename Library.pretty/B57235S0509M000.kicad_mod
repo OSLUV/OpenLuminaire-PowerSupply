@@ -1,0 +1,541 @@
+(footprint "B57235S0509M000"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "B57235S0509M000-1")
+	(tags "Thermistor")
+	(property "Reference" "REF**"
+		(at -1 -2.25 0)
+		(layer "F.SilkS")
+		(uuid "5db40371-badf-461c-a62a-b3417fe5bd81")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "B57235S0509M000"
+		(at 2.5 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7d43abd6-a134-4762-a00a-826fe0480556")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/protection/current/ntc-limiter/data_sheet/50/db/icl_16/s235.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a809b858-e121-4fff-8235-fc8e5557794d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "EPCOS - B57235S0509M000 - Thermistor, ICL NTC, 5 ohm, -20% to +20%, Radial Leaded, B57235S0 Series"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0d67cbd6-cdf0-45cd-94c6-9c16b6f7fedb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "14"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7fe83d6c-2b55-40a9-84e8-71f7830ed162")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "871-B57235S0509M000"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "42692e29-c5ae-495f-954a-50f22e42ee76")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B57235S0509M000?qs=AKDv8POSxR001FUcTQlcYw%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "da075cd2-e8b0-42af-aa3f-0dee14104ff3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "TDK"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "07d4da46-b2b3-43ee-b678-816b53ecf9c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "B57235S0509M000"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f02ca2be-d8d0-463d-b6a3-2eef02e8abb8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Field10" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6173c36e-2bf1-4c5c-8c35-020a70bca652")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "C" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7a4d5203-ae6b-47d9-aef0-53a87055ac10")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Ceramic Type" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b0d61fe-4699-40d5-8354-aea2c55d6805")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DF (%)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "16bd54e2-743f-440b-b5e7-9ef1f53f09c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c79818a-2f9b-4807-8574-fd95ec1a6a0a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Fl (mm)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b176af0a-d4f3-4ce0-82d1-29c759cdb7c8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "IRP,40K (A)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d79ca316-28d8-465e-905d-5c97f2158ca7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ISAT (A)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "48f2a446-b575-4369-9c23-72a7ae109f45")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ISAT,30% (A)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9ff97c28-4a7b-457b-b910-fcd0d74ab516")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Operating Temperature" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8bb5dbe1-7ec1-45c0-a03b-a61dbf7b7829")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Q (%)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d51cd41c-2e9b-4cb6-a293-8b7290fef130")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "RDC typ. (mΩ)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb1ca83d-932f-4b2e-a841-9b2a9ef1d7e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "RISO" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e3ee1de7-83ff-42be-ac3f-d9022516d9e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Safety Class" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "de28727d-b57d-491c-86a1-02d466445876")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Library" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "359c02d3-4a4f-4270-b6b7-6d2acb7f3766")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Name" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "73b03c92-3902-4a41-834c-0a33be6fc572")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Tol. C" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "73dfe7bb-8a9a-41bf-93ef-f62f6cafaefc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "VIMP (V (DC))" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6676f3f5-63eb-4cec-9034-62ad3c2241bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "VOP (V)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0f4a56d7-b1aa-43d9-b43f-81117f99266d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "fres (MHz)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "84148adb-baea-4da9-9543-a2d626b63f41")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.25 -3)
+		(end 7.25 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "721eb020-9f74-4f2b-bf88-1c5749d56b7e")
+	)
+	(fp_line
+		(start -2.25 3)
+		(end -2.25 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b1af6e4c-ad32-42ca-be09-b2224aca9685")
+	)
+	(fp_line
+		(start 7.25 -3)
+		(end 7.25 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "506a3698-dada-47a1-b6df-2e0b5cdfa0fa")
+	)
+	(fp_line
+		(start 7.25 3)
+		(end -2.25 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "da70cf50-58c9-4612-a7a1-054aa9c9911f")
+	)
+	(fp_line
+		(start -2.75 -3.5)
+		(end 7.75 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "522bc4b8-5c70-471e-93a5-d3ccd02c7511")
+	)
+	(fp_line
+		(start -2.75 3.5)
+		(end -2.75 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dab2a06f-e85a-4aea-b23c-75f49eb7e552")
+	)
+	(fp_line
+		(start 7.75 -3.5)
+		(end 7.75 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cfde6e78-409d-49e1-9625-e48b198966d2")
+	)
+	(fp_line
+		(start 7.75 3.5)
+		(end -2.75 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fb68a27c-0196-43b8-a1f1-edbd39fc8a2c")
+	)
+	(fp_line
+		(start -2.25 -3)
+		(end 7.25 -3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d3317016-5924-4974-a864-e63ac2ac9eba")
+	)
+	(fp_line
+		(start -2.25 3)
+		(end -2.25 -3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "45594fa4-6193-4fb3-b8a5-ff3f3cdcaeae")
+	)
+	(fp_line
+		(start 7.25 -3)
+		(end 7.25 3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "983b3b8d-1471-407e-977a-55654bf906b9")
+	)
+	(fp_line
+		(start 7.25 3)
+		(end -2.25 3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5d775af4-1aec-4e58-8c2b-dbb2f99a085d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.5 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "385884a0-aee6-4eae-8178-6029163031bb")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.55 1.55)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6155cf19-7bcb-4643-9f85-e0451c23e50e")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 1.55 1.55)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c341585d-2525-4e72-bceb-ddb76f8bb0d3")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/B57235S0509M000.stp"
+		(offset
+			(xyz 2.499999962 0 7.659999732)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
