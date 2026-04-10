@@ -342,7 +342,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "02616e39-f970-4bc1-9fcd-ee83f9c4adde")
 		(property "Reference" "H4"
 			(at 105.664 127 0)
@@ -561,6 +561,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 106.68 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cd905ddb-87e9-4ec1-9fae-e98d587ade3c")
 		)
@@ -580,7 +589,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "2200d90a-3e29-4c87-a00d-acd029774a71")
 		(property "Reference" "H2"
 			(at 84.074 127 0)
@@ -791,6 +800,15 @@
 			)
 		)
 		(property "fres (MHz)" ""
+			(at 85.09 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 85.09 121.92 0)
 			(effects
 				(font
@@ -1034,6 +1052,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C592938"
+			(at 64.77 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "643495-2"
+			(at 64.77 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "674d217c-7fbb-4fd2-849d-77dfeaa67f05")
 		)
@@ -1059,7 +1095,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b04eef9a-0de9-48ca-aeb4-54a5941e7e0b")
 		(property "Reference" "H3"
 			(at 95.504 127 0)
@@ -1278,6 +1314,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 96.52 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b9accfd2-3679-497f-a21c-fa0f0e882c45")
 		)
@@ -1297,7 +1342,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "fb0b455c-ba37-4a5a-abc2-f8dac51227dd")
 		(property "Reference" "H1"
 			(at 71.374 127 0)
@@ -1508,6 +1553,15 @@
 			)
 		)
 		(property "fres (MHz)" ""
+			(at 72.39 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 72.39 121.92 0)
 			(effects
 				(font
