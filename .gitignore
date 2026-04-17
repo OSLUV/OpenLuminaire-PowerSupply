@@ -1,4 +1,33 @@
-*backups/
-*cache*
-*bak
-*.lck
+##KiCAD
+# Temporary files
+*.000
+*.bak
+*.bck
+*-backups
+*.kicad_pcb-bak
+*.kicad_prl
+*.sch-bak
+*~
+~$*.kicad_prl
+~*.kicad*.lck
+*_autosave-*
+*.tmp
+*.log
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+output/
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+#Libreoffice lock files.
+.~lock.*#
+
+#OS metadata.
+*.DS_Store
+Thumbs.db

@@ -1063,7 +1063,7 @@
           "group_by": false,
           "label": "LCSC Part Number",
           "name": "LCSC Part Number",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",
@@ -1071,7 +1071,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Manufacturer_Part_Number"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
