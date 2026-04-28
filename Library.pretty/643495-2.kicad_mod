@@ -302,94 +302,55 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -4.6 -9.8)
-		(end 0.1 -9.8)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "d521b945-8973-4661-8959-7fb89b44f380")
-	)
-	(fp_line
-		(start -4.6 -8)
-		(end -3 -8)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "53d248b6-f677-4c72-8456-925f07b81db1")
-	)
-	(fp_line
-		(start -4.6 8)
-		(end -3 8)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "496d3544-c7d2-42de-8e9f-5ca8895fe19d")
-	)
-	(fp_line
 		(start -4.6 10)
-		(end -4.6 -9.8)
+		(end -4.6 -10)
 		(stroke
-			(width 0.1)
+			(width 0.2)
 			(type default)
 		)
 		(layer "F.SilkS")
 		(uuid "3260225b-8806-4f83-86ee-8e1e6a29aada")
 	)
 	(fp_line
-		(start -3 8)
-		(end -3 -8)
+		(start 3.1 -10)
+		(end -4.6 -10)
 		(stroke
-			(width 0.1)
+			(width 0.2)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "0d68b37e-6ad6-4f52-be2d-0e3a2caed1ab")
+		(uuid "fb021196-0ad5-4576-843b-1ae2c4771069")
 	)
 	(fp_line
-		(start 0 10)
-		(end -4.6 10)
+		(start 3.1 -10)
+		(end 3.1 10)
 		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "101c0dfa-642d-4f9a-add0-4b04fc0710cc")
-	)
-	(fp_line
-		(start 0.1 -9.8)
-		(end 3.2 -9.8)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "220f1127-8fdf-4f6a-929b-bde660a8b943")
-	)
-	(fp_line
-		(start 3.2 -9.8)
-		(end 3.2 10)
-		(stroke
-			(width 0.1)
+			(width 0.2)
 			(type default)
 		)
 		(layer "F.SilkS")
 		(uuid "b20a6e50-0bd9-4024-871c-bb3b77b1187d")
 	)
 	(fp_line
-		(start 3.2 10)
-		(end 0 10)
+		(start 3.1 10)
+		(end -4.6 10)
 		(stroke
-			(width 0.1)
+			(width 0.2)
 			(type default)
 		)
 		(layer "F.SilkS")
 		(uuid "7e2f7a4f-60bf-4c43-8fd1-c524e2147127")
+	)
+	(fp_rect
+		(start -4.6 -8)
+		(end -3 8)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "e65180da-0d74-4a54-95b3-25a7e724a24b")
 	)
 	(fp_rect
 		(start -4.6 -9.8)
@@ -451,7 +412,7 @@
 		(uuid "5aeb0b4d-239c-4d39-babe-0ab9f675e0ed")
 	)
 	(embedded_fonts no)
-	(model "//ZDS_HE/Daten/KiCAD/3dmodels/643495-2.stp"
+	(model "${KIPRJMOD}/packages3D/643495-2.stp"
 		(offset
 			(xyz 0 0 3)
 		)

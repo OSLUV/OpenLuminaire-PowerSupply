@@ -366,26 +366,6 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -2.26 0)
-		(end -2.26 0)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "8146d470-9ade-42f4-8a8f-984dbc1b9872")
-	)
-	(fp_line
-		(start -2.16 0)
-		(end -2.16 0)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "3940841f-a3ab-45b3-ab53-0c6e4ed55a94")
-	)
-	(fp_line
 		(start 2.54 -4.25)
 		(end 2.54 -4.25)
 		(stroke
@@ -404,28 +384,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "27c4d780-9b32-40a3-8386-4d45623e71ae")
-	)
-	(fp_arc
-		(start -2.26 0)
-		(mid -2.21 -0.05)
-		(end -2.16 0)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "b7bb05c0-3b05-49e9-a085-e3c1f6272adf")
-	)
-	(fp_arc
-		(start -2.16 0)
-		(mid -2.21 0.05)
-		(end -2.26 0)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "14f144a1-47db-43b9-b20e-2d4989ce83a4")
 	)
 	(fp_arc
 		(start 2.54 -4.25)
@@ -543,24 +501,26 @@
 			)
 		)
 	)
-	(pad "1" thru_hole circle
+	(pad "1" thru_hole oval
 		(at 0 0)
-		(size 1.55 1.55)
+		(size 1.55 2)
 		(drill 0.85)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "3cd1add9-2e96-424b-9dad-6cc3afebde7b")
 	)
-	(pad "2" thru_hole circle
+	(pad "2" thru_hole oval
 		(at 5.08 0)
-		(size 1.55 1.55)
+		(size 1.55 2)
 		(drill 0.85)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "dc28421c-7241-44bf-8638-fb6f0f4a4687")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/37204000431.stp"
+	(model "${KIPRJMOD}/packages3D/37204000431.stp"
 		(offset
 			(xyz 0 0 0)
 		)

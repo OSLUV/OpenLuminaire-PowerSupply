@@ -382,7 +382,7 @@
 		(start -2.25 -3)
 		(end 7.25 -3)
 		(stroke
-			(width 0.1)
+			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -392,7 +392,7 @@
 		(start -2.25 3)
 		(end -2.25 -3)
 		(stroke
-			(width 0.1)
+			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -402,7 +402,7 @@
 		(start 7.25 -3)
 		(end 7.25 3)
 		(stroke
-			(width 0.1)
+			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -412,7 +412,7 @@
 		(start 7.25 3)
 		(end -2.25 3)
 		(stroke
-			(width 0.1)
+			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -510,24 +510,26 @@
 			)
 		)
 	)
-	(pad "1" thru_hole circle
+	(pad "1" thru_hole oval
 		(at 0 0)
-		(size 1.55 1.55)
+		(size 1.55 2)
 		(drill 0.85)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "6155cf19-7bcb-4643-9f85-e0451c23e50e")
 	)
-	(pad "2" thru_hole circle
+	(pad "2" thru_hole oval
 		(at 5 0)
-		(size 1.55 1.55)
+		(size 1.55 2)
 		(drill 0.85)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "c341585d-2525-4e72-bceb-ddb76f8bb0d3")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/B57235S0509M000.stp"
+	(model "${KIPRJMOD}/packages3D/B57235S0509M000.stp"
 		(offset
 			(xyz 2.499999962 0 7.659999732)
 		)

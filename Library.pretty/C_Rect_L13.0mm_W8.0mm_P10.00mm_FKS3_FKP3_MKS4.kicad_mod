@@ -430,20 +430,22 @@
 			)
 		)
 	)
-	(pad "1" thru_hole circle
+	(pad "1" thru_hole oval
 		(at 0 0)
-		(size 2 2)
+		(size 2 2.5)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "421ce5ba-6f50-4cc2-b702-a04d74a4cadc")
 	)
-	(pad "2" thru_hole circle
+	(pad "2" thru_hole oval
 		(at 10 0)
-		(size 2 2)
+		(size 2 2.5)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "e03c3e3d-70c3-4703-8dfe-eb0166b218e2")
 	)
 	(embedded_fonts no)

@@ -37,15 +37,15 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 1.32,
+          "height": 0.1,
+          "width": 0.1
         },
-        "silk_line_width": 0.1,
+        "silk_line_width": 0.2,
         "silk_text_italic": false,
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.1,
+        "silk_text_thickness": 0.2,
         "silk_text_upright": false,
         "zones": {
           "min_clearance": 0.5
@@ -60,63 +60,15 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|118287904|70000000|a2d21f9c-d993-4821-8b8b-86d2be998aa8|d369d143-154f-44fb-a759-63167dd3429d",
+          "clearance|62460000|70275000|a67e5b98-6608-42a4-9cb2-16efcbc1316f|6d278ad1-b38a-433f-af92-145eef620a4d",
           ""
         ],
         [
-          "clearance|118287904|70000000|d369d143-154f-44fb-a759-63167dd3429d|fb903d68-1179-4e41-a860-6d9103142ad4",
-          ""
-        ],
-        [
-          "clearance|119951000|70701000|d369d143-154f-44fb-a759-63167dd3429d|dfe3d27a-fe99-482e-b7d0-5f4573335879",
-          ""
-        ],
-        [
-          "clearance|119951000|70701000|d369d143-154f-44fb-a759-63167dd3429d|fbce6cb8-1797-4098-abc3-e1ed82b169e7",
-          ""
-        ],
-        [
-          "clearance|120000000|66770000|bc37acf6-882e-42b5-828d-8ae1a9a08c63|d369d143-154f-44fb-a759-63167dd3429d",
-          ""
-        ],
-        [
-          "clearance|120000000|69505000|d369d143-154f-44fb-a759-63167dd3429d|6001486a-dfd7-46da-9dc3-b4399f77dc90",
-          ""
-        ],
-        [
-          "clearance|62189000|70500000|444cd93a-5c6b-487f-a03a-cfcea1c11453|6d278ad1-b38a-433f-af92-145eef620a4d",
-          ""
-        ],
-        [
-          "clearance|62189000|70561000|6d278ad1-b38a-433f-af92-145eef620a4d|876248b4-f773-4b0a-ba76-319c7ba24fd6",
-          ""
-        ],
-        [
-          "clearance|62208500|61250000|155d6eba-096a-416b-95a8-facbe7759e14|6587d92b-aeb0-49d7-b936-6e09dae60848",
-          ""
-        ],
-        [
-          "clearance|65000000|61250000|2f457519-02db-483c-8e1f-e818e513e054|155d6eba-096a-416b-95a8-facbe7759e14",
-          ""
-        ],
-        [
-          "clearance|65000000|70500000|a67e5b98-6608-42a4-9cb2-16efcbc1316f|6d278ad1-b38a-433f-af92-145eef620a4d",
-          ""
-        ],
-        [
-          "clearance|67791500|61250000|2f457519-02db-483c-8e1f-e818e513e054|6ab8f63d-75ac-4c41-bfa2-67f7d982f03f",
+          "clearance|62500000|61025000|2f457519-02db-483c-8e1f-e818e513e054|155d6eba-096a-416b-95a8-facbe7759e14",
           ""
         ],
         [
           "clearance|67811000|70500000|49dd17e7-b56e-4afb-b3b6-2fa691385a3c|a67e5b98-6608-42a4-9cb2-16efcbc1316f",
-          ""
-        ],
-        [
-          "unconnected_items|156000000|86000000|F.Cu|4|e9952b05-d02b-4336-b487-a2fbd7c2c838|2275d28d-5892-47b1-bc4d-e48cae749b5e",
-          ""
-        ],
-        [
-          "unconnected_items|54450000|61300000|F.Cu|4|1511b412-ca34-44fc-8968-d927c9535f54|61e57f51-7037-49b9-98d1-a9bc677ac841",
           ""
         ]
       ],
@@ -161,7 +113,7 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
@@ -1071,7 +1023,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Manufacturer_Part_Number"
     },
     "connection_grid_size": 50.0,
     "drawing": {
