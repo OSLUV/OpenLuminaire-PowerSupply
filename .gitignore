@@ -16,7 +16,7 @@
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
-output/
+# output/
 
 # Netlist files (exported from Eeschema)
 *.net
