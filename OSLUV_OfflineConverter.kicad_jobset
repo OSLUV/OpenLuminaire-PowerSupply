@@ -151,7 +151,7 @@
       "id": "e7b3e7b3-eadd-416d-a206-764ab1cb1103",
       "settings": {
         "description": "",
-        "exclude_dnp": false,
+        "exclude_dnp": true,
         "exclude_footprints_with_th": false,
         "format": "csv",
         "gerber_board_edge": true,
