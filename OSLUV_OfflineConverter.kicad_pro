@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.2,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -62,15 +62,11 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|62460000|70275000|a67e5b98-6608-42a4-9cb2-16efcbc1316f|6d278ad1-b38a-433f-af92-145eef620a4d",
+          "clearance|55270000|79400000|2f457519-02db-483c-8e1f-e818e513e054|155d6eba-096a-416b-95a8-facbe7759e14",
           ""
         ],
         [
-          "clearance|62500000|61025000|2f457519-02db-483c-8e1f-e818e513e054|155d6eba-096a-416b-95a8-facbe7759e14",
-          ""
-        ],
-        [
-          "clearance|67811000|70500000|49dd17e7-b56e-4afb-b3b6-2fa691385a3c|a67e5b98-6608-42a4-9cb2-16efcbc1316f",
+          "clearance|55330000|89000000|a67e5b98-6608-42a4-9cb2-16efcbc1316f|6d278ad1-b38a-433f-af92-145eef620a4d",
           ""
         ]
       ],
@@ -145,7 +141,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.4,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -534,43 +530,12 @@
         "wire_width": 6
       },
       {
-        "clearance": 2.25,
-        "name": "HV_Drain",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
-      },
-      {
-        "clearance": 1.2,
-        "name": "HV_Drain_div",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
-      },
-      {
-        "clearance": 11.0,
-        "name": "HV_Lamp",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
-      },
-      {
-        "clearance": 5.5,
-        "name": "HV_Lamp/2",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
-      },
-      {
         "clearance": 2.5,
         "name": "MAINS",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.0,
         "tuning_profile": ""
       },
       {
@@ -579,6 +544,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.0,
         "tuning_profile": ""
       },
       {
@@ -656,11 +622,27 @@
       "PDC": [
         "Off_HV"
       ],
+      "UDC": [
+        "Off_HV"
+      ],
       "unconnected-(L104-NC-Pad2)": [
         "Off_HV"
       ]
     },
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Off_HV",
+        "pattern": "*UDC"
+      },
+      {
+        "netclass": "MAINS",
+        "pattern": "*L_*"
+      },
+      {
+        "netclass": "MAINS",
+        "pattern": "*N_*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -682,7 +664,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "BOM\\Meinboard_USBC_2Ch_Order.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -1050,6 +1032,90 @@
           "label": "LCSC Part Number",
           "name": "LCSC Part Number",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Series",
+          "name": "Series",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VOut1 (V)",
+          "name": "VOut1 (V)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VOut2 (V)",
+          "name": "VOut2 (V)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VOut3 (V)",
+          "name": "VOut3 (V)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VIN",
+          "name": "VIN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "IOut3 (mA)",
+          "name": "IOut3 (mA)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vaux (V)",
+          "name": "Vaux (V)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vaux 2 (V)",
+          "name": "Vaux 2 (V)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Created Date",
+          "name": "Created Date",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "IOut1 (mA)",
+          "name": "IOut1 (mA)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "fswitch (kHz)",
+          "name": "fswitch (kHz)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "NPRI : NSEC : NAUX",
+          "name": "NPRI : NSEC : NAUX",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "L (uH)",
+          "name": "L (uH)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "IOut2 (mA)",
+          "name": "IOut2 (mA)",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -1057,7 +1123,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Manufacturer_Part_Number"
+      "sort_field": "Reference"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -1105,16 +1171,16 @@
       {
         "filename": "OSLUV_OfflineConverter.kicad_sch",
         "name": "OSLUV_OfflineConverter",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "c6e900e0-9399-44f0-8089-9dd7b8ffe54c"
       }
     ],
-    "used_designators": "",
+    "used_designators": "L1,C116-117",
     "variants": []
   },
   "sheets": [
     [
       "c6e900e0-9399-44f0-8089-9dd7b8ffe54c",
-      "Root"
+      "OSLUV_OfflineConverter"
     ],
     [
       "a8d7965e-5268-4c95-93ca-40f8dbbf325c",
