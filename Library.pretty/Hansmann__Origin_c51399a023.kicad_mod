@@ -1,0 +1,149 @@
+(footprint "Origin"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e27a8f37-dc03-4d98-b306-cf138fc37250")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Origin"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ad174233-cdbd-4567-b158-1adad5b3ffbe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bc81ed6a-5338-4e16-b519-d7e2ede084ab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e6f10491-2fee-4958-8bad-a0b0f6782156")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.75 -0.75)
+		(end 0.75 0.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.Fab")
+		(uuid "b3ac0fd5-bbce-4d73-8b4f-5612a93bbb34")
+	)
+	(fp_line
+		(start 0.75 -0.75)
+		(end -0.75 0.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.Fab")
+		(uuid "f2a7a00a-0515-47c6-a6fd-d784aff03e47")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 0.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "B.Fab")
+		(uuid "6f2b5935-1700-43c6-a785-c7c8e4b30419")
+	)
+	(fp_line
+		(start -0.75 -0.75)
+		(end 0.75 0.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "96d783bf-be49-45d0-98ed-f24aebd0741f")
+	)
+	(fp_line
+		(start 0.75 -0.75)
+		(end -0.75 0.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "8b8c8ff0-ec4c-49e8-9029-4267fbafa1df")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 0.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "fb9efe24-f03b-451f-a050-99d86c4bb4b3")
+	)
+	(fp_text user "Origin"
+		(at -0.8 1.5 0)
+		(unlocked yes)
+		(layer "B.Fab")
+		(uuid "ee476323-740e-485a-b8bb-e587646b9413")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "Origin"
+		(at -4.5 1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "506168cc-1ac0-43c5-982d-2b0bfd78c709")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(embedded_fonts no)
+)

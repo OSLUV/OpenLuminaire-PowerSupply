@@ -1,6 +1,6 @@
 PCB material: FR4
 Finish: ENIG
-Layers: 4
+Layers: 2
 Copper thickness: 35um
 Overall thickness: 1.6mm
 Impedance control: None

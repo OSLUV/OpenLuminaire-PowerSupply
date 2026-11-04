@@ -1,0 +1,241 @@
+(footprint "643495-2"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -7.925 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "29dd750b-e8dd-41d8-8378-58474b2e6b38")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "643495-2 "
+		(at 0 2.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "26978c35-0300-4755-96ac-670f6423f65a")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce498865-ade8-4490-80bf-a7c649ed3e7b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7392e4f5-fb3b-4cd2-bca0-45180c95f8d7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -4.6 -9.8)
+		(end 0.1 -9.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "767eb610-55ca-4b3c-80b0-1a631e42b97f")
+	)
+	(fp_line
+		(start -4.6 -8)
+		(end -3 -8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "01377e28-0c8b-493b-9453-d628fe7c1446")
+	)
+	(fp_line
+		(start -4.6 8)
+		(end -3 8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a17f7a32-3902-4040-b06e-cce836c5951a")
+	)
+	(fp_line
+		(start -4.6 10)
+		(end -4.6 -9.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "545250a0-d9da-4cf0-81f4-af002bd6cb8a")
+	)
+	(fp_line
+		(start -3 8)
+		(end -3 -8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "090b4017-c2de-4d5b-bc7c-660429a4cabd")
+	)
+	(fp_line
+		(start 0 10)
+		(end -4.6 10)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d7689382-f0ce-45a4-8cd8-aef684e2a734")
+	)
+	(fp_line
+		(start 0.1 -9.8)
+		(end 3.2 -9.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c53ee233-c225-42f8-9fdb-a85fc3e1879e")
+	)
+	(fp_line
+		(start 3.2 -9.8)
+		(end 3.2 10)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7180809b-4f1d-4d68-8a73-883247fd7bcb")
+	)
+	(fp_line
+		(start 3.2 10)
+		(end 0 10)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "febc3d72-c21b-413e-b772-33956caabb28")
+	)
+	(fp_rect
+		(start -4.7 -9.9)
+		(end 3.3 10.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "4392ca72-3858-4a47-80a6-adeef5336760")
+	)
+	(fp_rect
+		(start -4.6 -9.8)
+		(end 3.2 10)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "dfea6157-2bb6-4177-ac50-fa23662e75a1")
+	)
+	(fp_rect
+		(start -4.6 -8)
+		(end -3 8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a6c949b9-2ed4-4647-823f-b858f3a2f06b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -3.5 -2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e45a1cf0-f5de-4859-8f06-8c80afbdf4fa")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 -7.925)
+		(size 3.54 3.54)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c1634dbc-19c8-4f27-9d48-c405c99f5817")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 3.54 3.54)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8ca3c4b8-abd2-47cf-a851-f70e3551cdfb")
+	)
+	(pad "3" thru_hole circle
+		(at 0 7.925)
+		(size 3.54 3.54)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8290346c-f4f0-402f-b63e-94641122f2c2")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/packages3D/643495-2_2cc440fe50.stp"
+		(offset
+			(xyz 0 0 3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+	(model "${KIPRJMOD}/packages3D/643495-2_2cc440fe50.stp"
+		(offset
+			(xyz 0 0 3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)
