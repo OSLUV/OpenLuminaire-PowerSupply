@@ -8719,7 +8719,7 @@
 			(uuid "e4146aaa-d57f-40df-83cb-74804e05dbb4")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/packages3D/T_Wurth_WE-OLTI-EFD25_7508112341_e22d3d42c4.step"
+		(model "//ZDS_HE/Daten/KiCAD/3dmodels/Transformer_THT_Wurth.3dshapes/T_Wurth_WE-OLTI-EFD25_7508112341.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17582,7 +17582,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "RL1206FR-7W0R33L"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
