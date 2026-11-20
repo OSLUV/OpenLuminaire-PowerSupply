@@ -679,6 +679,7 @@
         "MAINS"
       ],
       "/N": [
+        "MAINS",
         "MAINS_preFuse"
       ],
       "/N_CM1": [
@@ -844,7 +845,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "output\\Aerolamp_Powersupply_bom.csv",
+    "bom_export_filename": "\\Aerolamp_Powersupply_Bom.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",

@@ -165,7 +165,7 @@
         "group_symbols": true,
         "keep_line_breaks": false,
         "keep_tabs": false,
-        "output_filename": "output\\Aerolamp_Powersupply_bom.csv",
+        "output_filename": "\\Aerolamp_Powersupply_Bom.csv",
         "ref_delimiter": ",",
         "ref_range_delimiter": "",
         "sort_asc": true,
@@ -226,8 +226,8 @@
         "use_drill_origin": false,
         "use_grid_origin": false,
         "use_pcb_center_origin": true,
-        "user_origin.x": 144.75,
-        "user_origin.y": 104.25,
+        "user_origin.x": 157.5,
+        "user_origin.y": 100.0,
         "vrml_model_dir": "",
         "vrml_relative_paths": false
       },
@@ -522,9 +522,18 @@
     {
       "description": "Output Directory",
       "id": "b5bc8444-6d45-4eb2-b364-806cf07be2f7",
-      "only": [],
+      "only": [
+        "65111159-a5fd-418e-8191-64008e87e348",
+        "e7b3e7b3-eadd-416d-a206-764ab1cb1103",
+        "f6ec9e40-722e-4b9e-abca-027d8c07581c",
+        "a6003753-10f2-4406-94c4-0f521828e7da",
+        "c2d20a64-3950-4f7f-9fef-700b8d40cbae",
+        "f8e90597-2b2d-41cc-b679-a95ed3152f5b",
+        "61f40e87-9d6c-4cdc-b07f-9808991017c1",
+        "b92a6e34-9e04-44c2-a0f8-4dedb0fd1a40"
+      ],
       "settings": {
-        "output_path": "${KIPRJMOD}/output"
+        "output_path": "${KIPRJMOD}/output/"
       },
       "type": "folder"
     },
@@ -540,6 +549,17 @@
         "output_path": "${KIPRJMOD}/output/gerbers/GERBER.zip"
       },
       "type": "archive"
+    },
+    {
+      "description": "3D",
+      "id": "fb77141b-09f5-430f-98b9-18b279bc240c",
+      "only": [
+        "6255bc29-b0b6-457f-b2f2-35309120c7e5"
+      ],
+      "settings": {
+        "output_path": "${KIPRJMOD}/output/"
+      },
+      "type": "folder"
     }
   ]
 }
