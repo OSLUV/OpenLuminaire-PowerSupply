@@ -637,7 +637,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Fertigungsdaten/",
+      "plot": "../OpenExcimer-Hardware/output/",
       "pos_files": "Fertigungsdaten/",
       "specctra_dsn": "",
       "step": "OSLUV_OfflineConverter.step",
