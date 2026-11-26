@@ -94,10 +94,6 @@
           ""
         ],
         [
-          "clearance|175525000|98600000|8334913c-e3d4-4a20-9edd-024561cb66b1|f7ff0a52-f4dc-4fe2-8337-629d81ef2060",
-          ""
-        ],
-        [
           "clearance|182975000|97625000|248d1c4d-4e00-4a31-b839-a40c16a26c79|8334913c-e3d4-4a20-9edd-024561cb66b1",
           ""
         ],
@@ -107,6 +103,10 @@
         ],
         [
           "clearance|182975000|97625000|248d1c4d-4e00-4a31-b839-a40c16a26c79|b500ee46-f807-478e-a5fa-cc55b380a495",
+          ""
+        ],
+        [
+          "clearance|182975000|98875000|f7ff0a52-f4dc-4fe2-8337-629d81ef2060|8334913c-e3d4-4a20-9edd-024561cb66b1",
           ""
         ],
         [
@@ -138,7 +138,7 @@
           ""
         ],
         [
-          "unconnected_items|111313263|110750000|F.Cu|4|c040209b-dfaa-4071-993f-4c4d4aeccf73|0f9b25ed-c262-44d4-99bd-a13c6aa4f60d",
+          "unconnected_items|111063263|92000000|F.Cu|4|0f9b25ed-c262-44d4-99bd-a13c6aa4f60d|c040209b-dfaa-4071-993f-4c4d4aeccf73",
           ""
         ],
         [
@@ -146,7 +146,7 @@
           ""
         ],
         [
-          "unconnected_items|201000000|87000000|F.Cu|4|2275d28d-5892-47b1-bc4d-e48cae749b5e|5ccbd82a-2afa-418a-a843-9f7d09ad9d04",
+          "unconnected_items|201000000|113000000|F.Cu|4|5ccbd82a-2afa-418a-a843-9f7d09ad9d04|2275d28d-5892-47b1-bc4d-e48cae749b5e",
           ""
         ]
       ],
@@ -678,9 +678,11 @@
       "/L_Fuse": [
         "MAINS"
       ],
+      "/L_NTC": [
+        "MAINS"
+      ],
       "/N": [
-        "MAINS",
-        "MAINS_preFuse"
+        "MAINS"
       ],
       "/N_CM1": [
         "MAINS"
@@ -822,6 +824,14 @@
       {
         "netclass": "EARTH",
         "pattern": "*Ea*"
+      },
+      {
+        "netclass": "MAINS_preFuse",
+        "pattern": "*L"
+      },
+      {
+        "netclass": "MAINS",
+        "pattern": "*N"
       }
     ]
   },

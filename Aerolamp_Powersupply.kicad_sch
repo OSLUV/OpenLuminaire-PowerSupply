@@ -7135,10 +7135,10 @@
 		(uuid "5e8a6805-3264-41d1-b796-7d4a99d1f970")
 	)
 	(junction
-		(at 71.12 60.96)
+		(at 60.96 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6172ebcc-8848-4032-948b-cacfaabe26c5")
+		(uuid "62a08eb1-09f7-4609-a943-52c8d13f5cd4")
 	)
 	(junction
 		(at 53.34 96.52)
@@ -7213,10 +7213,10 @@
 		(uuid "8d58e891-abd7-4c8e-a2ef-681e6198f209")
 	)
 	(junction
-		(at 71.12 43.18)
+		(at 60.96 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "92630b70-51c3-4947-b6e7-8bffb68a100c")
+		(uuid "9286610d-7cf4-46b7-b70d-3e44483609ad")
 	)
 	(junction
 		(at 19.05 121.92)
@@ -7730,6 +7730,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 43.18) (xy 82.55 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a852e6d-7176-442c-8c18-c5dc2123c33c")
+	)
+	(wire
+		(pts
 			(xy 226.06 137.16) (xy 226.06 138.43)
 		)
 		(stroke
@@ -8117,16 +8127,6 @@
 			(type default)
 		)
 		(uuid "65c26de9-151c-477b-9ffd-479c7f0abb71")
-	)
-	(wire
-		(pts
-			(xy 69.85 60.96) (xy 71.12 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "676da6b0-76df-40d7-9ecc-788e9d738b0a")
 	)
 	(wire
 		(pts
@@ -8670,13 +8670,13 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 43.18) (xy 71.12 43.18)
+			(xy 78.74 60.96) (xy 82.55 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "adf40478-7c5b-4d43-8b6a-d63e21e6206a")
+		(uuid "aded7969-8311-4df9-a52f-5cb41684ddfb")
 	)
 	(wire
 		(pts
@@ -8760,17 +8760,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 60.96) (xy 82.55 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6069e90-2b05-4417-a35b-8a7b8db9f7b3")
-	)
-	(wire
-		(pts
-			(xy 40.64 43.18) (xy 43.18 43.18)
+			(xy 40.64 43.18) (xy 60.96 43.18)
 		)
 		(stroke
 			(width 0)
@@ -9110,7 +9100,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 60.96) (xy 50.8 60.96)
+			(xy 50.8 60.96) (xy 60.96 60.96)
 		)
 		(stroke
 			(width 0)
@@ -9227,16 +9217,6 @@
 			(type default)
 		)
 		(uuid "e15fe52c-4f6f-4bf4-865c-f8d687bad42f")
-	)
-	(wire
-		(pts
-			(xy 71.12 43.18) (xy 82.55 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e16535eb-b11f-423b-88b8-4a4bba4df903")
 	)
 	(wire
 		(pts
@@ -9408,16 +9388,6 @@
 		)
 		(uuid "0c543020-ba4f-4c51-9944-c0167aa80582")
 	)
-	(label "N_NTC"
-		(at 72.39 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "165a0f2a-e1e1-44cd-a402-e21488b9c38b")
-	)
 	(label "L"
 		(at 26.67 52.07 0)
 		(effects
@@ -9519,7 +9489,7 @@
 		(uuid "7b015704-d64c-4d97-8459-3a94fd260d2d")
 	)
 	(label "L_Fuse"
-		(at 72.39 60.96 0)
+		(at 53.34 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9588,6 +9558,16 @@
 		)
 		(uuid "d7e45a96-d7f0-4254-8c57-52512be02faf")
 	)
+	(label "L_NTC"
+		(at 82.55 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e21ea6ac-6238-40a1-bd6e-5026f5b0533f")
+	)
 	(label "SEC_OUT"
 		(at 186.69 93.98 0)
 		(effects
@@ -9625,7 +9605,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 38.1 22.86) (xy 38.1 67.31) (xy 46.355 67.31) (xy 46.355 22.86)
+				(xy 12.7 49.53) (xy 12.7 74.93) (xy 43.18 74.93) (xy 43.18 49.53)
 			)
 			(stroke
 				(width 0)
@@ -9712,27 +9692,27 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape diamond)
-		(at 38.1 22.86 0)
+		(at 43.18 74.93 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "6057da6b-00bc-4229-acfe-b372657f66b1")
 		(property "Netzklasse" "MAINS_preFuse"
-			(at 34.798 18.542 0)
+			(at 61.214 75.184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Component Class" ""
-			(at -95.25 -12.7 0)
+			(at 78.74 -58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16742,118 +16722,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Fuse")
-		(at 46.99 43.18 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3f4839d1-4d04-4eb4-a8e4-237e3693b827")
-		(property "Reference" "F101"
-			(at 46.736 38.1 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "400mA 350VAC"
-			(at 47.752 40.386 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Library:Fuse__Fuse_Littelfuse_395Series_30ab480550"
-			(at 46.99 44.958 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 46.99 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "0697H0400-02"
-			(at 46.99 43.18 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "L (µH)" ""
-			(at 46.99 43.18 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RDC max. (Ω)" ""
-			(at 46.99 43.18 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "574ee07b-b056-422b-b90e-203d3aa6c626")
-		)
-		(pin "1"
-			(uuid "8e9d4951-20c0-43ce-bc1d-46e80eb50027")
-		)
-		(instances
-			(project "Aerolamp_Powersupply"
-				(path "/c6e900e0-9399-44f0-8089-9dd7b8ffe54c"
-					(reference "F101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PRI_HI")
 		(at 190.5 46.99 0)
 		(unit 1)
@@ -17287,7 +17155,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 35.56 73.914 0)
+			(at 30.226 71.882 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18420,7 +18288,7 @@
 	)
 	(symbol
 		(lib_id "Hansmann:B72207S2301K101")
-		(at 71.12 60.96 90)
+		(at 60.96 60.96 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18430,7 +18298,7 @@
 		(dnp no)
 		(uuid "487fca4e-2eee-4183-b718-b63b42653df7")
 		(property "Reference" "RV101"
-			(at 67.056 36.8299 90)
+			(at 56.896 36.8299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18441,7 +18309,7 @@
 			)
 		)
 		(property "Value" "B72207S2301K101"
-			(at 67.564 39.37 90)
+			(at 57.404 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18452,7 +18320,7 @@
 			)
 		)
 		(property "Footprint" "Library:B72207S2301K101"
-			(at 167.31 46.99 0)
+			(at 157.15 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18464,7 +18332,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/protection/voltage/lead-disk-varistor/data_sheet/70/db/var/siov_leaded_advanced.pdf"
-			(at 267.31 46.99 0)
+			(at 257.15 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18476,7 +18344,7 @@
 			)
 		)
 		(property "Description" "Leaded Disk Varistors, Max. Operating Voltage [AC]=300Vrms, Max. Surge Current Imax(8/20us,1time)=1750A"
-			(at 71.12 60.96 0)
+			(at 60.96 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18487,7 +18355,7 @@
 			)
 		)
 		(property "Height" "11"
-			(at 467.31 46.99 0)
+			(at 457.15 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18499,7 +18367,7 @@
 			)
 		)
 		(property "Mouser Part Number" "871-B72207S2301K101"
-			(at 567.31 46.99 0)
+			(at 557.15 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18511,7 +18379,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B72207S2301K101?qs=xN3cbABbNRYd7lm30fFKQQ%3D%3D"
-			(at 667.31 46.99 0)
+			(at 657.15 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18523,7 +18391,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "TDK"
-			(at 767.31 46.99 0)
+			(at 757.15 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18535,7 +18403,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "B72207S2301K101"
-			(at 867.31 46.99 0)
+			(at 857.15 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18547,7 +18415,7 @@
 			)
 		)
 		(property "C" ""
-			(at 71.12 60.96 90)
+			(at 60.96 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18558,7 +18426,7 @@
 			)
 		)
 		(property "Ceramic Type" ""
-			(at 71.12 60.96 90)
+			(at 60.96 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18569,7 +18437,7 @@
 			)
 		)
 		(property "DF (%)" ""
-			(at 71.12 60.96 90)
+			(at 60.96 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18580,7 +18448,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 71.12 60.96 90)
+			(at 60.96 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18591,7 +18459,7 @@
 			)
 		)
 		(property "Fl (mm)" ""
-			(at 71.12 60.96 90)
+			(at 60.96 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18602,7 +18470,7 @@
 			)
 		)
 		(property "IRP,40K (A)" ""
-			(at 71.12 60.96 90)
+			(at 60.96 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18613,7 +18481,7 @@
 			)
 		)
 		(property "ISAT (A)" ""
-			(at 71.12 60.96 90)
+			(at 60.96 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18624,7 +18492,7 @@
 			)
 		)
 		(property "ISAT,30% (A)" ""
-			(at 71.12 60.96 90)
+			(at 60.96 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18635,7 +18503,7 @@
 			)
 		)
 		(property "Operating Temperature" ""
-			(at 71.12 60.96 90)
+			(at 60.96 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18646,7 +18514,7 @@
 			)
 		)
 		(property "Q (%)" ""
-			(at 71.12 60.96 90)
+			(at 60.96 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18657,7 +18525,7 @@
 			)
 		)
 		(property "RDC typ. (mΩ)" ""
-			(at 71.12 60.96 90)
+			(at 60.96 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18668,7 +18536,7 @@
 			)
 		)
 		(property "RISO" ""
-			(at 71.12 60.96 90)
+			(at 60.96 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18679,7 +18547,7 @@
 			)
 		)
 		(property "Safety Class" ""
-			(at 71.12 60.96 90)
+			(at 60.96 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18690,7 +18558,7 @@
 			)
 		)
 		(property "Sim.Library" ""
-			(at 71.12 60.96 90)
+			(at 60.96 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18701,7 +18569,7 @@
 			)
 		)
 		(property "Sim.Name" ""
-			(at 71.12 60.96 90)
+			(at 60.96 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18712,7 +18580,7 @@
 			)
 		)
 		(property "Tol. C" ""
-			(at 71.12 60.96 90)
+			(at 60.96 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18723,7 +18591,7 @@
 			)
 		)
 		(property "VIMP (V (DC))" ""
-			(at 71.12 60.96 90)
+			(at 60.96 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18734,7 +18602,7 @@
 			)
 		)
 		(property "VOP (V)" ""
-			(at 71.12 60.96 90)
+			(at 60.96 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18745,7 +18613,7 @@
 			)
 		)
 		(property "fres (MHz)" ""
-			(at 71.12 60.96 90)
+			(at 60.96 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18756,7 +18624,7 @@
 			)
 		)
 		(property "LCSC Part Number" "C210479"
-			(at 71.12 60.96 90)
+			(at 60.96 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18767,7 +18635,7 @@
 			)
 		)
 		(property "L (µH)" ""
-			(at 71.12 60.96 90)
+			(at 60.96 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18778,7 +18646,7 @@
 			)
 		)
 		(property "RDC max. (Ω)" ""
-			(at 71.12 60.96 90)
+			(at 60.96 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20186,7 +20054,7 @@
 		(dnp no)
 		(uuid "5e540ae4-f53a-4969-8ac3-37aa3028a60f")
 		(property "Reference" "F102"
-			(at 49.022 63.5 90)
+			(at 46.736 58.928 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20196,7 +20064,7 @@
 			)
 		)
 		(property "Value" "400mA 350VAC"
-			(at 48.514 69.85 90)
+			(at 47.752 63.754 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24221,7 +24089,7 @@
 	)
 	(symbol
 		(lib_id "Hansmann:B57235S0509M000")
-		(at 52.07 60.96 0)
+		(at 60.96 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24231,7 +24099,7 @@
 		(dnp no)
 		(uuid "8462cada-958d-4aec-9fba-c977c4aa91ac")
 		(property "Reference" "RT101"
-			(at 62.23 57.404 0)
+			(at 71.12 57.404 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24241,7 +24109,7 @@
 			)
 		)
 		(property "Value" "B57235S0509M000"
-			(at 62.738 64.77 0)
+			(at 71.628 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24251,7 +24119,7 @@
 			)
 		)
 		(property "Footprint" "Library:Hansmann__B57235S0509M000_d8584b3c21"
-			(at 66.04 157.15 0)
+			(at 74.93 157.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24263,7 +24131,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/protection/current/ntc-limiter/data_sheet/50/db/icl_16/s235.pdf"
-			(at 66.04 257.15 0)
+			(at 74.93 257.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24275,7 +24143,7 @@
 			)
 		)
 		(property "Description" "EPCOS - B57235S0509M000 - Thermistor, ICL NTC, 5 ohm, -20% to +20%, Radial Leaded, B57235S0 Series"
-			(at 52.07 60.96 0)
+			(at 60.96 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24286,7 +24154,7 @@
 			)
 		)
 		(property "Height" "14"
-			(at 66.04 457.15 0)
+			(at 74.93 457.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24298,7 +24166,7 @@
 			)
 		)
 		(property "Mouser Part Number" "871-B57235S0509M000"
-			(at 66.04 557.15 0)
+			(at 74.93 557.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24310,7 +24178,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B57235S0509M000?qs=AKDv8POSxR001FUcTQlcYw%3D%3D"
-			(at 66.04 657.15 0)
+			(at 74.93 657.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24322,7 +24190,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "TDK"
-			(at 66.04 757.15 0)
+			(at 74.93 757.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24334,7 +24202,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "B57235S0509M000"
-			(at 66.04 857.15 0)
+			(at 74.93 857.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24346,7 +24214,7 @@
 			)
 		)
 		(property "Field10" ""
-			(at 52.07 60.96 0)
+			(at 60.96 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24357,7 +24225,7 @@
 			)
 		)
 		(property "C" ""
-			(at 52.07 60.96 0)
+			(at 60.96 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24368,7 +24236,7 @@
 			)
 		)
 		(property "Ceramic Type" ""
-			(at 52.07 60.96 0)
+			(at 60.96 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24379,7 +24247,7 @@
 			)
 		)
 		(property "DF (%)" ""
-			(at 52.07 60.96 0)
+			(at 60.96 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24390,7 +24258,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 52.07 60.96 0)
+			(at 60.96 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24401,7 +24269,7 @@
 			)
 		)
 		(property "Fl (mm)" ""
-			(at 52.07 60.96 0)
+			(at 60.96 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24412,7 +24280,7 @@
 			)
 		)
 		(property "IRP,40K (A)" ""
-			(at 52.07 60.96 0)
+			(at 60.96 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24423,7 +24291,7 @@
 			)
 		)
 		(property "ISAT (A)" ""
-			(at 52.07 60.96 0)
+			(at 60.96 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24434,7 +24302,7 @@
 			)
 		)
 		(property "ISAT,30% (A)" ""
-			(at 52.07 60.96 0)
+			(at 60.96 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24445,7 +24313,7 @@
 			)
 		)
 		(property "Operating Temperature" ""
-			(at 52.07 60.96 0)
+			(at 60.96 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24456,7 +24324,7 @@
 			)
 		)
 		(property "Q (%)" ""
-			(at 52.07 60.96 0)
+			(at 60.96 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24467,7 +24335,7 @@
 			)
 		)
 		(property "RDC typ. (mΩ)" ""
-			(at 52.07 60.96 0)
+			(at 60.96 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24478,7 +24346,7 @@
 			)
 		)
 		(property "RISO" ""
-			(at 52.07 60.96 0)
+			(at 60.96 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24489,7 +24357,7 @@
 			)
 		)
 		(property "Safety Class" ""
-			(at 52.07 60.96 0)
+			(at 60.96 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24500,7 +24368,7 @@
 			)
 		)
 		(property "Sim.Library" ""
-			(at 52.07 60.96 0)
+			(at 60.96 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24511,7 +24379,7 @@
 			)
 		)
 		(property "Sim.Name" ""
-			(at 52.07 60.96 0)
+			(at 60.96 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24522,7 +24390,7 @@
 			)
 		)
 		(property "Tol. C" ""
-			(at 52.07 60.96 0)
+			(at 60.96 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24533,7 +24401,7 @@
 			)
 		)
 		(property "VIMP (V (DC))" ""
-			(at 52.07 60.96 0)
+			(at 60.96 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24544,7 +24412,7 @@
 			)
 		)
 		(property "VOP (V)" ""
-			(at 52.07 60.96 0)
+			(at 60.96 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24555,7 +24423,7 @@
 			)
 		)
 		(property "fres (MHz)" ""
-			(at 52.07 60.96 0)
+			(at 60.96 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24566,7 +24434,7 @@
 			)
 		)
 		(property "LCSC Part Number" "C125457"
-			(at 52.07 60.96 0)
+			(at 60.96 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24577,7 +24445,7 @@
 			)
 		)
 		(property "L (µH)" ""
-			(at 52.07 60.96 0)
+			(at 60.96 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24588,7 +24456,7 @@
 			)
 		)
 		(property "RDC max. (Ω)" ""
-			(at 52.07 60.96 0)
+			(at 60.96 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

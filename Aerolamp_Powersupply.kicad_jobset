@@ -7,21 +7,22 @@
         "bom_format_preset_name": "CSV",
         "bom_preset_name": "",
         "description": "",
-        "exclude_dnp": true,
+        "exclude_dnp": false,
         "field_delimiter": ",",
         "fields_group_by": [
-          "Reference",
-          "Manufacturer_Part_Number"
+          "Value",
+          "${DNP}",
+          "Footprint"
         ],
         "fields_labels": [
-          "Designator",
-          "Comment",
+          "Reference",
           "Qty",
+          "Value",
+          "DNP",
+          "Exclude from BOM",
+          "Exclude from Board",
           "Footprint",
           "Datasheet",
-          "Description",
-          "#",
-          "Manufacturer Part Number",
           "Manufacturer_Part_Number",
           "JLCPCB Part #",
           "Article",
@@ -85,17 +86,20 @@
           "Series",
           "fswitch (kHz)",
           "NPRI : NSEC : NAUX",
-          "IOut1 (mA)"
+          "IOut1 (mA)",
+          "#",
+          "Manufacturer Part Number",
+          "Description"
         ],
         "fields_ordered": [
           "Reference",
+          "${QUANTITY}",
           "Value",
-          "__${QUANTITY}",
+          "${DNP}",
+          "__${EXCLUDE_FROM_BOM}",
+          "__${EXCLUDE_FROM_BOARD}",
           "Footprint",
           "__Datasheet",
-          "__Description",
-          "__${ITEM_NUMBER}",
-          "__Manufacturer Part Number",
           "Manufacturer_Part_Number",
           "__LCSC Part Number",
           "__Article",
@@ -159,7 +163,10 @@
           "__Series",
           "__fswitch (kHz)",
           "__NPRI : NSEC : NAUX",
-          "__IOut1 (mA)"
+          "__IOut1 (mA)",
+          "__${ITEM_NUMBER}",
+          "__Manufacturer Part Number",
+          "__Description"
         ],
         "filter_string": "",
         "group_symbols": true,
@@ -169,7 +176,7 @@
         "ref_delimiter": ",",
         "ref_range_delimiter": "",
         "sort_asc": true,
-        "sort_field": "Value",
+        "sort_field": "Reference",
         "string_delimiter": "\"",
         "variant_names": []
       },
@@ -328,29 +335,6 @@
         "use_x2_format": true
       },
       "type": "pcb_export_gerbers"
-    },
-    {
-      "description": "",
-      "id": "c2d20a64-3950-4f7f-9fef-700b8d40cbae",
-      "settings": {
-        "description": "",
-        "drill_origin": "abs",
-        "excellon.combine_pth_npth": true,
-        "excellon.minimal_header": false,
-        "excellon.mirror_y": false,
-        "excellon.oval_drill_route": false,
-        "format": "excellon",
-        "generate_map": false,
-        "generate_report": false,
-        "generate_tenting": false,
-        "gerber_precision": 5,
-        "map_format": "pdf",
-        "output_dir": "gerbers",
-        "report_filename": "",
-        "units": "in",
-        "zero_format": "decimal"
-      },
-      "type": "pcb_export_drill"
     },
     {
       "description": "Components",
@@ -527,7 +511,6 @@
         "e7b3e7b3-eadd-416d-a206-764ab1cb1103",
         "f6ec9e40-722e-4b9e-abca-027d8c07581c",
         "a6003753-10f2-4406-94c4-0f521828e7da",
-        "c2d20a64-3950-4f7f-9fef-700b8d40cbae",
         "f8e90597-2b2d-41cc-b679-a95ed3152f5b",
         "61f40e87-9d6c-4cdc-b07f-9808991017c1",
         "b92a6e34-9e04-44c2-a0f8-4dedb0fd1a40"
@@ -542,7 +525,7 @@
       "id": "ec034eea-78de-4216-93b3-2a18b2f57c3d",
       "only": [
         "a6003753-10f2-4406-94c4-0f521828e7da",
-        "c2d20a64-3950-4f7f-9fef-700b8d40cbae"
+        "b92a6e34-9e04-44c2-a0f8-4dedb0fd1a40"
       ],
       "settings": {
         "format": "zip",
